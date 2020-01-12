@@ -1,32 +1,3 @@
-"""
-Simulated annealing with restart applied to the traveling salesman problem.
-
-The data needs to be in cvs format and the coordinates of the cities are
-longitude and latitude. Thus, any gps data taken on the internet can
-serve as input.
-
-Once the annealing is done, the cities are plotted according to their
-coordinates using the matplotlib package. The cities are then linked as to
-show the order of visit in the final solution. Also, the evolution of the
-tested and shortest distances is plotted.
-"""
-__docformat__ = "restructuredtext en"
-
-## Copyright (c) 2010 Emmanuel Goossaert
-##
-## This file is free software; you can redistribute it and/or modify
-## it under the terms of the GNU General Public License as published by
-## the Free Software Foundation; either version 3 of the License, or
-## (at your option) any later version.
-##
-## This file is distributed in the hope that it will be useful,
-## but WITHOUT ANY WARRANTY; without even the implied warranty of
-## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-## GNU General Public License for more details.
-##
-## You should have received a copy of the GNU General Public License
-## along with this file.  If not, see <http://www.gnu.org/licenses/>.
-
 
 import csv
 import sys
